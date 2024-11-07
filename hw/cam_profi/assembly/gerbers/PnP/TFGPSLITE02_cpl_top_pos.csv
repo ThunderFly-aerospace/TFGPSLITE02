@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"D2","RED","LED_0603_1608Metric",129.7525,-100.1200,0.0000,top
+"D3","GREEN","LED_0603_1608Metric",142.2475,-100.1500,0.0000,top
+"U2","SAM-M8Q","ublox_SAM-M8Q",136.0100,-109.9950,180.0000,top
