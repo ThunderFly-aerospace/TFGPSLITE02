@@ -2468,6 +2468,12 @@
 		(uuid "aa116591-5f06-4090-88b9-787bdb3f81ff")
 	)
 	(junction
+		(at 144.78 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d789fb00-b683-4f5e-b184-7cbea897e8ed")
+	)
+	(junction
 		(at 57.15 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2509,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 29.21) (xy 153.67 29.21)
+			(xy 137.16 29.21) (xy 144.78 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2676,6 +2682,26 @@
 			(type default)
 		)
 		(uuid "38045774-2595-44ee-a4d5-2bb0500885b0")
+	)
+	(wire
+		(pts
+			(xy 144.78 36.83) (xy 144.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c380371-d4d3-420d-bceb-91d274cba011")
+	)
+	(wire
+		(pts
+			(xy 144.78 29.21) (xy 153.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c60a67d-be6c-44a4-804d-98bd7f015bdb")
 	)
 	(wire
 		(pts
@@ -2906,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "8e7b276b-2718-4d10-bd65-30d6bbe1007e")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 144.78 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e833e9-0fba-45fe-98e9-7226a7f76310")
 	)
 	(wire
 		(pts
@@ -3427,7 +3463,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08a0f1c5-14cf-4822-aaf5-1ae28b67685c")
 		(property "Reference" "C4"
 			(at 139.7 33.0262 0)
@@ -3439,7 +3474,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 139.7 35.5662 0)
+			(at 137.668 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,6 +4691,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 144.78 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ac38dee-3740-4106-98fa-7e71eafa9742")
+		(property "Reference" "#PWR03"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbd7270-2a84-47ee-8b4b-c51f6a445c3e")
+		)
+		(instances
+			(project "TFGPSLITE02"
+				(path "/ad3de673-2c6f-49c5-bb76-b63aef50b486"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 137.16 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4978,6 +5079,85 @@
 			(project "TFGPSLITE01"
 				(path "/ad3de673-2c6f-49c5-bb76-b63aef50b486"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e009267-3514-4f59-a341-f6baca173a50")
+		(property "Reference" "C5"
+			(at 147.32 33.0262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 147.32 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc96cf8-8008-45ec-a2dd-307f8ebb352e")
+		)
+		(pin "2"
+			(uuid "58098f16-1854-442b-9a31-3c6aefdcfe72")
+		)
+		(instances
+			(project "TFGPSLITE02"
+				(path "/ad3de673-2c6f-49c5-bb76-b63aef50b486"
+					(reference "C5")
 					(unit 1)
 				)
 			)
