@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPSLITE02.kicad_sch</source>
-    <date>2024-11-07T23:01:31+0000</date>
+    <date>2025-01-01T23:10:27+0000</date>
     <tool>Eeschema 8.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -492,11 +492,11 @@
     <comp ref="U2">
       <value>SAM-M8Q</value>
       <footprint>RF_GPS:ublox_SAM-M8Q</footprint>
-      <datasheet>https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf</datasheet>
+      <datasheet>https://content.u-blox.com/sites/default/files/documents/SAM-M8Q_DataSheet_UBX-16012619.pdf</datasheet>
       <description>GPS ublox M8 variant</description>
       <fields>
         <field name="Footprint">RF_GPS:ublox_SAM-M8Q</field>
-        <field name="Datasheet">https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf</field>
+        <field name="Datasheet">https://content.u-blox.com/sites/default/files/documents/SAM-M8Q_DataSheet_UBX-16012619.pdf</field>
         <field name="Description">GPS ublox M8 variant</field>
       </fields>
       <libsource lib="RF_GPS" part="SAM-M8Q" description="GPS ublox M8 variant"/>
