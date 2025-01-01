@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TFGPSLITE01.kicad_pro",
+    "filename": "TFGPSLITE02.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -664,7 +664,7 @@
   "sheets": [
     [
       "ad3de673-2c6f-49c5-bb76-b63aef50b486",
-      "Hlavní"
+      "Root"
     ]
   ],
   "text_variables": {}
