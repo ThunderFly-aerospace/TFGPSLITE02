@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPSLITE02.kicad_sch</source>
-    <date>2025-01-01T23:10:27+0000</date>
+    <date>2025-01-11T17:59:29+0000</date>
     <tool>Eeschema 8.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>TFGPSLITE02A</title>
+        <company>ThunderFly s.r.o.</company>
+        <rev>A</rev>
+        <date>2025-01-11</date>
         <source>TFGPSLITE02.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Compact GNSS Module for\nlightweight UAVs"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
