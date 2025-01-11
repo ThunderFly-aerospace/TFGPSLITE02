@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "TFGPSLITE02A")
+		(date "2025-01-11")
+		(company "ThunderFly s.r.o.")
+		(comment 1 "Compact GNSS Module for\\nlightweight UAVs")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -265,7 +271,7 @@
 		(descr "GPS Module, 15.5x15.5x6.3mm, https://www.u-blox.com/sites/default/files/SAM-M8Q_HardwareIntegrationManual_%28UBX-16018358%29.pdf")
 		(tags "ublox SAM-M8Q")
 		(property "Reference" "U2"
-			(at -6.46 -6.435 360)
+			(at -6.46 -6.435 0)
 			(layer "F.SilkS")
 			(uuid "86027e69-175f-4771-a3c0-2986325f7900")
 			(effects
@@ -276,7 +282,7 @@
 			)
 		)
 		(property "Value" "SAM-M8Q"
-			(at 0 8.75 360)
+			(at 0 8.75 0)
 			(layer "F.Fab")
 			(uuid "0b670bf6-e8bb-4463-9970-3aaf21274d5e")
 			(effects
@@ -578,7 +584,7 @@
 			(uuid "2aff3ad8-d6d0-4c03-b59d-bbbc0a5790f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "70126858-7c40-44e6-b25a-152507ed52f2")
 			(effects
@@ -1279,7 +1285,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "bedb9025-fedc-4035-8388-d4e5b0094b40")
 			(effects
@@ -1467,7 +1473,7 @@
 			(uuid "adb446d8-ace3-4340-8393-7650d574ee34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f9d023fa-381d-4754-9a43-f097b7568ec5")
 			(effects
@@ -1760,7 +1766,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "09ac8d73-c448-44ed-bf76-b20732a12880")
 			(effects
@@ -1948,7 +1954,7 @@
 			(uuid "e2bbece2-e610-42d5-bfee-185435764039")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d9b25319-3a33-481d-83a4-34cd691b5cda")
 			(effects
@@ -2113,7 +2119,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 2.38 0.36 360)
+			(at 2.38 0.36 0)
 			(layer "B.SilkS")
 			(uuid "c02cee30-9bdc-48f8-825e-2f83619807d8")
 			(effects
@@ -2824,7 +2830,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "4d85350b-13be-4c8d-95e6-2a9af6358b7f")
 			(effects
@@ -2997,7 +3003,7 @@
 			(uuid "48bf6d46-f932-465c-a2c6-6bb5382148fc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a4ebb68a-6f41-4259-9dcd-5e1958e3b6ec")
 			(effects
@@ -3057,7 +3063,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "5d3a9cc4-d762-4323-9d12-8baa6233389c")
 			(effects
@@ -3230,7 +3236,7 @@
 			(uuid "cbc761b6-3d8d-4e20-8a62-0c2285c59e1d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "dde65ff9-8e3c-411a-96b4-5d37e225020f")
 			(effects
@@ -3278,7 +3284,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 2.39 -0.36 360)
+			(at 2.39 -0.36 0)
 			(layer "B.SilkS")
 			(uuid "a1da23ef-e43a-430b-8c9a-63da9ab1b637")
 			(effects
@@ -4503,7 +4509,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 2.73 0.01 360)
+			(at 2.73 0.01 0)
 			(layer "B.SilkS")
 			(uuid "32e0a818-df53-4475-94e5-7bfc064fd366")
 			(effects
@@ -4515,7 +4521,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "c8ee31e3-c199-4b5f-afc5-efe488ee8d8b")
 			(effects
@@ -4674,7 +4680,7 @@
 			(uuid "e212f06f-868b-4d10-b8da-7e91488a7ad2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "aed1aa95-8902-43fd-b7ba-054febb8d63d")
 			(effects
@@ -4734,7 +4740,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "3f972ff9-bbaf-4a6c-8bee-fdc01a318742")
 			(effects
@@ -4907,7 +4913,7 @@
 			(uuid "8a80d1fb-a86e-430b-9f39-25cf1579908e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "92dcbd75-1df3-48c7-a5cf-24ba05fd97f0")
 			(effects
@@ -6072,7 +6078,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 2.59 0.01 360)
+			(at 2.59 0.01 0)
 			(layer "B.SilkS")
 			(uuid "fa68588e-06d9-480d-b8fa-3bbb15e8b267")
 			(effects
@@ -6084,7 +6090,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "594ad1f4-4a56-4d2d-9159-53d85bf5a009")
 			(effects
@@ -6243,7 +6249,7 @@
 			(uuid "4f2c54ae-9b24-4384-b948-667ebf6f402c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2f3aa04d-6641-496c-afff-83697e2bb9e6")
 			(effects
@@ -6605,7 +6611,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "C2"
-			(at 0.1 -2.01 360)
+			(at 0.1 -2.01 0)
 			(layer "B.SilkS")
 			(uuid "73f06cdc-4990-4b1f-8cd3-37d1f9aa506d")
 			(effects
@@ -7519,6 +7525,39 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "07b504d4-13f3-48a0-bae5-ee1fea390bc4")
+		(pts
+			(xy 115.7 89.68) (xy 156.34 89.68)
+		)
+		(height -8.68)
+		(gr_text "40,6400 mm"
+			(at 136.02 79.85 0)
+			(layer "Dwgs.User")
+			(uuid "07b504d4-13f3-48a0-bae5-ee1fea390bc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)
