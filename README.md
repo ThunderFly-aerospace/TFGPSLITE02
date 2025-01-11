@@ -2,7 +2,6 @@
 
 The **TFGPSLITE02** module is a compact GNSS solution based on the [u-blox SAM-M8Q](https://www.u-blox.com/en/product/sam-m8q-module). It is designed for small, lightweight, and simple UAVs, offering excellent positioning accuracy with support for multiple satellite constellations. It connects seamlessly to flight controllers via the [Pixhawk standard "Basic GPS Port"](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
 
-
 ![TFGPSLITE02 top view](doc/gen/img/TFGPSLITE02-top.png)
 
 ![TFGPSLITE02 bottom view](doc/gen/img/TFGPSLITE02-bottom.png)
@@ -64,4 +63,7 @@ The module interfaces with the payload with the following signals:
 | 3   | TPL (OUT)   | +3.3V   |
 | 4   | GND       | GND     |
 
+## Where to get it?
+
+The TFGPSLITE02 is commercially available from [ThunderFly s.r.o.](https://www.thunderfly.cz/). For a commercial quotation, contact us by email at sale@thunderfly.cz or shop at our [Tindie store](https://www.tindie.com/stores/thunderfly/).
 
