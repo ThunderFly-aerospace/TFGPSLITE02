@@ -1,5 +1,7 @@
 # TFGPSLITE02 - Compact GNSS Module for Lightweight UAVs
 
+[![Kicad - production files generator](https://github.com/ThunderFly-aerospace/TFGPSLITE02/actions/workflows/kicad_outputs.yml/badge.svg)](https://github.com/ThunderFly-aerospace/TFGPSLITE02/actions/workflows/kicad_outputs.yml)
+
 The **TFGPSLITE02** module is a compact GNSS solution based on the [u-blox SAM-M8Q](https://www.u-blox.com/en/product/sam-m8q-module). It is designed for small, lightweight, and simple UAVs, offering excellent positioning accuracy with support for multiple satellite constellations. It connects seamlessly to flight controllers via the [Pixhawk standard "Basic GPS Port"](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
 
 ![TFGPSLITE02 top view](doc/gen/img/TFGPSLITE02-top.png)
@@ -9,7 +11,7 @@ The **TFGPSLITE02** module is a compact GNSS solution based on the [u-blox SAM-M
 ## Features
 
 - **GNSS Support**: Concurrent reception of up to three GNSS systems (GPS, Galileo, GLONASS).
-- **Compact Design**: Compact form factor (15.5 x 15.5 x 6.3 mm) with integrated patch antenna.
+- **Compact Design**: Compact flat form factor with integrated patch antenna.
 - **High Sensitivity**: Superior performance in environments with weak or obstructed GNSS signals.
 - **Augmentation Systems**: Support for SBAS (WAAS, EGNOS, MSAS, GAGAN) and QZSS.
 - **Advanced Security**:
@@ -37,6 +39,9 @@ The **TFGPSLITE02** module is a compact GNSS solution based on the [u-blox SAM-M
 - **Environmental Tolerances**:
   - Operating temperature: -40 °C to 85 °C.
   - Storage temperature: -40 °C to 85 °C.
+- **Physical properties**: 
+  - Dimensions 50x50x8mm
+  - Weight 11.3 grams
 
 ## Connection to Flight Controller
 
