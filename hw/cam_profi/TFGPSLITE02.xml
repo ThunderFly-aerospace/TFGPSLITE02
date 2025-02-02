@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFGPSLITE02.kicad_sch</source>
-    <date>2025-01-11T17:59:29+0000</date>
-    <tool>Eeschema 8.0.6+1</tool>
+    <date>2025-02-02T01:51:36+0000</date>
+    <tool>Eeschema 8.0.8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFGPSLITE02A</title>
