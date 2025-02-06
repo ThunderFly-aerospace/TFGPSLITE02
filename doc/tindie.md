@@ -5,7 +5,7 @@ A lightweight GNSS module with a high-quality ground plane, ideal for UAVs, mult
 
 The TFGPSLITE02 is a compact and lightweight open-source hardware GNSS module based on the u-blox SAM-M8Q receiver. Designed for small UAVs and simple navigation applications, it offers precise positioning with support for GPS, Galileo, and GLONASS constellations.
 
-One of its key advantages is the integrated ground plane—a conductive surface beneath the antenna that improves signal quality and reduces interference. This feature ensures more stable and accurate positioning, especially in UAV applications where signal integrity is critical.
+One of its key advantages is the high-quality integrated ground plane, which enhances signal reception and reduces interference. Unlike lower-cost solutions where supporting components are placed next to the antenna, degrading signal integrity, this module employs a carefully designed layout that separates supporting circuitry. By positioning these components on the opposite side of the board, this design choice, while increasing manufacturing costs, significantly improves signal stability and accuracy—an essential factor for UAV applications where GNSS signal integrity is critical.
 
 With seamless integration via the Pixhawk Basic GPS Port, this module is an excellent choice for developers and hobbyists looking for a simple yet effective GNSS solution.
 
